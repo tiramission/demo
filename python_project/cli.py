@@ -3,7 +3,7 @@ from pathlib import Path
 import click
 
 
-@click.command()
+@click.group()
 def cli():
-    click.echo("Hello World")
+    ...
 

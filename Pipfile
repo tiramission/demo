@@ -9,6 +9,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+httpx = "*"
+lxml = "*"
 
 [dev-packages]
 click = "*"
