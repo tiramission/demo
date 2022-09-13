@@ -38,8 +38,5 @@ def get_all_versions():
             fw.write(html_txt)
     html = etree.HTML(html_txt)
     v_list = html.xpath('//div[@class="expanded"]/h2/text()')
-    versions = [
-        v.strip().removeprefix("go").removesuffix(" ▾")
-        for v in v_list
-    ]
+    versions = [v.strip().removeprefix("go").removesuffix(" ▾") for v in v_list]
     return versions

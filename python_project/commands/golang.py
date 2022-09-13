@@ -3,7 +3,9 @@ import tempfile
 from pathlib import Path
 
 import click
+
 import python_project.tools.golang as golang_tools
+
 
 @click.command("golang")
 @click.option("--list", "-l", is_flag=True)

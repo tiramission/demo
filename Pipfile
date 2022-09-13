@@ -11,10 +11,13 @@ name = "pypi"
 [packages]
 httpx = "*"
 lxml = "*"
+click = "*"
 
 [dev-packages]
-click = "*"
+
 pyinstaller = "*"
+isort = "*"
+black = "*"
 
 [requires]
 python_version = "3.10"
