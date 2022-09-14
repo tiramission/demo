@@ -3,3 +3,6 @@ clean:
 
 build: clean
 	pipenv run python scripts/build.py
+
+format: clean
+	pipenv run python scripts/format.py

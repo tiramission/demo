@@ -1,3 +1,7 @@
+"""
+Program Entry Point
+"""
+
 from python_project.cli import cli
 from python_project.commands.golang import golang
 
