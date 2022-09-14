@@ -4,7 +4,7 @@ from pathlib import Path
 
 import click
 
-import python_project.tools.golang as golang_tools
+import app.tools.golang as golang_tools
 
 
 @click.command("golang")

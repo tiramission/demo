@@ -3,7 +3,7 @@ from pathlib import Path
 import httpx
 from lxml import etree
 
-from python_project.tools import consts
+from app.tools import consts
 
 
 def get_latest_version():
