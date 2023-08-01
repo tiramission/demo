@@ -1,5 +1,13 @@
 {
 	"name": "Rust",
 	"dockerFile": "Dockerfile",
-	"remoteUser": "vscode"
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"streetsidesoftware.code-spell-checker"
+			]
+		}
+	},
 }
