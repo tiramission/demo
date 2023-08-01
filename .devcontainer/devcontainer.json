@@ -1,0 +1,5 @@
+{
+	"name": "Rust",
+	"dockerFile": "Dockerfile",
+	"remoteUser": "vscode"
+}
