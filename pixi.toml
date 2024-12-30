@@ -1,0 +1,16 @@
+[project]
+authors = ["tiramission <37465086+tiramission@users.noreply.github.com>"]
+channels = ["nvidia/label/cuda-12.4.0", "conda-forge", "pytorch"]
+description = "Add a short description here"
+name = "pixidemo"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+pytorch = { version = "*", channel = "pytorch" }
+torchvision = { version = "*", channel = "pytorch" }
+torchaudio = { version = "*", channel = "pytorch" }
+python = "3.10.*"
+pip = ">=24.3.1,<25"
